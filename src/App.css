@@ -1,0 +1,86 @@
+body {
+  background: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  width: 90%;
+  display: grid;
+  gap: 1em;
+  margin: 3em;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1em;
+}
+button {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: inherit;
+  border: line;
+  border-radius: 20px;
+  border-color: #17f;
+  outline: none;
+  padding: 0.5em 1.5em;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.342);
+}
+button:active {
+  background-color: #05b;
+  color:white !important;
+}
+input {
+  border: 1px solid #999;
+  border-radius: 20px;
+  font: inherit;
+  padding: 0.8em;
+  outline: none;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.342);
+}
+
+.item {
+  padding: 1.2em;
+  list-style-type: none;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  background: #fff;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.342);
+  min-height: 120px;
+}
+.item .title {
+  font-size: 100%;
+}
+.item .description {
+  margin: 1em 0;
+  font-size: 16px;
+}
+.item .thumbnail {
+  float: right;
+  box-shadow: 0px 1px 1px 1px #0002;
+  border-radius: 12px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.item .meta {
+  font-size: 80%;
+  font-weight: bold;
+  color: #555;
+}
+.item .provider-thumbnail {
+  margin-right: 0.5em;
+}
+.item .meta > *:not(:last-child) {
+  margin-right: 2em;
+}
+
+.titleatag{
+  text-decoration: none; 
+   font-size: 20px;
+  color:rgba(41, 184, 88, 0.76);
+}
+.timezone{
+  font-size: 12px;
+  color:gray
+}
